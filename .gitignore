@@ -1,0 +1,15 @@
+# C/C++ build artifacts
+*.exe
+*.out
+*.o
+*.obj
+
+# Build directories
+build/
+cmake-build-*/
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
