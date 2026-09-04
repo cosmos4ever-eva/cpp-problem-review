@@ -4,6 +4,9 @@
 *.o
 *.obj
 
+# Keep problem sample outputs even though compiled programs may use .out.
+!**/sample.out
+
 # Build directories
 build/
 cmake-build-*/
