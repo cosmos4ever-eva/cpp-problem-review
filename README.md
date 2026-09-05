@@ -12,8 +12,9 @@ topics/
 │  └─ 01-base-number-sorting/
 ├─ 02-string/
 │  └─ 01-reading-paper/
-└─ 03-sliding-window/
-   └─ 01-subarray-sum-length/
+└─ 03-two-pointers/
+   ├─ 01-subarray-sum-length/
+   └─ 02-set-difference-iii/
 ```
 
 ## 复习索引
@@ -22,7 +23,8 @@ topics/
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 001 | [01 排序](topics/01-sorting/README.md) | 01 | [不同进制数排序](topics/01-sorting/01-base-number-sorting/problem.md) | 进制转换、稳定排序 | 2026-09-04 | AI 辅助完成 | 2026-09-05 |
 | 002 | [02 字符串](topics/02-string/README.md) | 01 | [读论文](topics/02-string/01-reading-paper/problem.md) | 连续字符压缩、哈希计数 | 2026-09-04 | AI 辅助完成 | 2026-09-05 |
-| 003 | [03 滑动窗口](topics/03-sliding-window/README.md) | 01 | [和为 x 的最短与最长连续子数组](topics/03-sliding-window/01-subarray-sum-length/problem.md) | 双指针、滑动窗口 | 2026-09-05 | AI 辅助完成 | 2026-09-06 |
+| 003 | [03 双指针](topics/03-two-pointers/README.md) | 01 | [和为 x 的最短与最长连续子数组](topics/03-two-pointers/01-subarray-sum-length/problem.md) | 同向双指针、滑动窗口 | 2026-09-05 | AI 辅助完成 | 2026-09-06 |
+| 004 | [03 双指针](topics/03-two-pointers/README.md) | 02 | [集合求差 III](topics/03-two-pointers/02-set-difference-iii/problem.md) | 相向扫描、集合差集 | 2026-09-05 | AI 辅助完成 | 2026-09-06 |
 
 ## 状态说明
 
