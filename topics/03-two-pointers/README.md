@@ -6,3 +6,4 @@
 | --- | --- | --- |
 | 01 | [和为 x 的最短与最长连续子数组](01-subarray-sum-length/problem.md) | 正整数数组、定和窗口 |
 | 02 | [集合求差 III](02-set-difference-iii/problem.md) | 两个升序集合、差集 |
+| 03 | [最长连续不重复子数组](03-longest-distinct-subarray/problem.md) | 滑动窗口、哈希计数 |

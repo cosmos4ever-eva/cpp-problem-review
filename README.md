@@ -25,7 +25,7 @@ topics/
 | --- | --- | --- | --- |
 | 01 | [排序](topics/01-sorting/README.md) | 1 | 排序规则、比较器与稳定性 |
 | 02 | [字符串](topics/02-string/README.md) | 1 | 字符串扫描、变换与计数 |
-| 03 | [双指针](topics/03-two-pointers/README.md) | 2 | 滑动窗口、有序序列同步扫描 |
+| 03 | [双指针](topics/03-two-pointers/README.md) | 3 | 滑动窗口、有序序列同步扫描 |
 
 ## 状态说明
 
