@@ -12,6 +12,7 @@
 | 02 | [字符串](topics/02-string/README.md) | 1 | 字符串扫描、变换与计数 |
 | 03 | [双指针](topics/03-two-pointers/README.md) | 3 | 滑动窗口、有序序列同步扫描 |
 | 04 | [前缀和](topics/04-prefix-sum/README.md) | 1 | 前缀预处理、快速区间求和 |
+| 05 | [数论](topics/05-number-theory/README.md) | 1 | 素数、筛法与质因数分解 |
 
 ## 状态说明
 
