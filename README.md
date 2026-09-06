@@ -13,6 +13,7 @@
 | 03 | [双指针](topics/03-two-pointers/README.md) | 3 | 滑动窗口、有序序列同步扫描 |
 | 04 | [前缀和](topics/04-prefix-sum/README.md) | 1 | 前缀预处理、快速区间求和 |
 | 05 | [数论](topics/05-number-theory/README.md) | 1 | 素数、筛法与质因数分解 |
+| 06 | [二分查找](topics/06-binary-search/README.md) | 1 | 整数二分、实数二分与精度控制 |
 
 ## 状态说明
 
