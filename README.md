@@ -8,7 +8,7 @@
 
 | 类别编号 | 类别 | 题目数 | 复习范围 |
 | --- | --- | --- | --- |
-| 01 | [排序](topics/01-sorting/README.md) | 1 | 排序规则、比较器与稳定性 |
+| 01 | [排序](topics/01-sorting/README.md) | 2 | 排序规则、稳定性与旋转有序数组 |
 | 02 | [字符串](topics/02-string/README.md) | 1 | 字符串扫描、变换与计数 |
 | 03 | [双指针](topics/03-two-pointers/README.md) | 3 | 滑动窗口、有序序列同步扫描 |
 | 04 | [前缀和](topics/04-prefix-sum/README.md) | 1 | 前缀预处理、快速区间求和 |
