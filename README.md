@@ -8,12 +8,12 @@
 
 | 类别编号 | 类别 | 题目数 | 复习范围 |
 | --- | --- | --- | --- |
-| 01 | [排序](topics/01-sorting/README.md) | 2 | 排序规则、稳定性与旋转有序数组 |
+| 01 | [排序](topics/01-sorting/README.md) | 1 | 排序规则、比较器与稳定性 |
 | 02 | [字符串](topics/02-string/README.md) | 1 | 字符串扫描、变换与计数 |
 | 03 | [双指针](topics/03-two-pointers/README.md) | 3 | 滑动窗口、有序序列同步扫描 |
 | 04 | [前缀和](topics/04-prefix-sum/README.md) | 1 | 前缀预处理、快速区间求和 |
 | 05 | [数论](topics/05-number-theory/README.md) | 1 | 素数、筛法与质因数分解 |
-| 06 | [二分查找](topics/06-binary-search/README.md) | 1 | 整数二分、实数二分与精度控制 |
+| 06 | [二分查找](topics/06-binary-search/README.md) | 2 | 旋转有序数组、实数二分与精度控制 |
 
 ## 状态说明
 
