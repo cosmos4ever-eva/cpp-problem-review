@@ -5,4 +5,4 @@
 | 类内题号 | 题目 | 核心知识点 |
 | --- | --- | --- |
 | 01 | [前缀和](01-prefix-sum-query/problem.md) | 前缀预处理、下标定义 |
-| 02 | [排序最小分割](02-minimum-sorting-partition/problem.md) | 前缀最大值、后缀最小值 |
+| 02 | [奶牛过马路](02-cow-crossing/problem.md) | 排序、前缀最大值、后缀最小值、结构体 |
