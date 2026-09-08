@@ -6,3 +6,4 @@
 | --- | --- | --- |
 | 01 | [前缀和](01-prefix-sum-query/problem.md) | 前缀预处理、下标定义 |
 | 02 | [奶牛过马路](02-cow-crossing/problem.md) | 排序、前缀最大值、后缀最小值、结构体 |
+| 03 | [赛博改装](03-cyberware-prime-range-sum/problem.md) | 质数前缀和、区间查询、边界处理 |
