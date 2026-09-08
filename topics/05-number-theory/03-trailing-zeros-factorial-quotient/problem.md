@@ -122,7 +122,6 @@ count(6!,2) - count(3!,2) = 4 - 1 = 3
 
 ## 对原始代码的整理
 
-- [original.cpp](original.cpp) 保留了最初只统计 `5` 的倍数的代码，用于回顾错误来源。
 - [solution-interval.cpp](solution-interval.cpp) 保留你修正后的逐个遍历区间的方法。
 - [solution.cpp](solution.cpp) 使用阶乘中质因子数量相减的方法，避免遍历整个区间。
 
@@ -137,5 +136,4 @@ count(6!,2) - count(3!,2) = 4 - 1 = 3
 
 - [solution.cpp](solution.cpp)：阶乘质因数计数的优化解法
 - [solution-interval.cpp](solution-interval.cpp)：逐个统计区间内每个数的解法
-- [original.cpp](original.cpp)：最初的错误代码
 - [sample.in](sample.in) / [sample.out](sample.out)：补充样例
