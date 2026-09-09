@@ -6,3 +6,4 @@
 | --- | --- | --- |
 | 01 | [01串](01-binary-strings/problem.md) | 递归终止、搜索树、回溯、二维 `vector` |
 | 02 | [子集I](02-subsets-i/problem.md) | 选或不选、固定长度组合、回溯、字典序排序 |
+| 03 | [全排列I](03-permutations-i/problem.md) | 使用状态、递归层数、回溯、字典序 |
