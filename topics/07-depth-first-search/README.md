@@ -8,3 +8,4 @@
 | 02 | [子集I](02-subsets-i/problem.md) | 选或不选、固定长度组合、回溯、字典序排序 |
 | 03 | [全排列I](03-permutations-i/problem.md) | 使用状态、递归层数、回溯、字典序 |
 | 04 | [组合I](04-combinations-i/problem.md) | 选或不选、剩余数量、终止条件顺序 |
+| 05 | [有限制的选数II](05-limited-number-selection-ii/problem.md) | 可重复选择、目标和剪枝、二叉决策树 |
