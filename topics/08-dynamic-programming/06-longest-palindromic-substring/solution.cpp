@@ -28,7 +28,7 @@ int main(){
            }
        }
    }
-  
+
    cout << max_len;
    return 0;
 }
