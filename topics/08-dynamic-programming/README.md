@@ -6,3 +6,4 @@
 | --- | --- | --- |
 | 01 | [数塔](01-number-tower/problem.md) | 状态定义、自底向上、边界初始化、记忆化搜索 |
 | 02 | [最大连续子序列和](02-maximum-subarray-sum/problem.md) | 以当前位置结尾的状态、线性递推、负数初始化 |
+| 03 | [最长上升子序列](03-longest-nondecreasing-subsequence/problem.md) | 最长不下降子序列、二维枚举、状态初始化 |

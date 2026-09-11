@@ -15,7 +15,7 @@
 | 05 | [数论](topics/05-number-theory/README.md) | 4 | 素数、筛法、质因数分解、约数、末尾零与最大公约数 |
 | 06 | [二分查找](topics/06-binary-search/README.md) | 5 | 旋转数组、边界查找、最近位置与 `lower_bound` |
 | 07 | [深度优先搜索](topics/07-depth-first-search/README.md) | 5 | 递归、搜索树、回溯、组合与排列枚举 |
-| 08 | [动态规划](topics/08-dynamic-programming/README.md) | 2 | 状态定义、递推顺序、记忆化搜索与最大连续子序列和 |
+| 08 | [动态规划](topics/08-dynamic-programming/README.md) | 3 | 状态定义、递推顺序、记忆化搜索、连续子序列与最长不下降子序列 |
 
 ## 状态说明
 
