@@ -10,3 +10,4 @@
 | 04 | [删除元素的最大连续子序列和I](04-maximum-subarray-sum-with-one-deletion/problem.md) | 二维状态、删除决策、连续区间、负数初始化 |
 | 05 | [最长公共子序列](05-longest-common-subsequence/problem.md) | 双字符串前缀、二维 DP、字符匹配、边界偏移 |
 | 06 | [最长回文子串](06-longest-palindromic-substring/problem.md) | 区间 DP、回文判断、按长度递推、边界初始化 |
+| 07 | [01背包问题](07-zero-one-knapsack/problem.md) | 二维状态、选与不选、容量枚举、下标统一 |
