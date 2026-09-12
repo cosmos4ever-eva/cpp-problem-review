@@ -11,3 +11,4 @@
 | 05 | [最长公共子序列](05-longest-common-subsequence/problem.md) | 双字符串前缀、二维 DP、字符匹配、边界偏移 |
 | 06 | [最长回文子串](06-longest-palindromic-substring/problem.md) | 区间 DP、回文判断、按长度递推、边界初始化 |
 | 07 | [01背包问题](07-zero-one-knapsack/problem.md) | 01背包、完全背包变式、容量枚举、下标统一 |
+| 08 | [疯狂下楼梯](08-crazy-downstairs/problem.md) | 计数 DP、起点初始化、障碍状态、过程取余 |
