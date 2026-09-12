@@ -12,3 +12,4 @@
 | 06 | [最长回文子串](06-longest-palindromic-substring/problem.md) | 区间 DP、回文判断、按长度递推、边界初始化 |
 | 07 | [01背包问题](07-zero-one-knapsack/problem.md) | 01背包、完全背包变式、容量枚举、下标统一 |
 | 08 | [疯狂下楼梯](08-crazy-downstairs/problem.md) | 计数 DP、起点初始化、障碍状态、过程取余 |
+| 09 | [最大连续子序列和的最优方案](09-maximum-subarray-optimal-solution/problem.md) | 状态路径记录、起点同步更新、多解优先级 |
