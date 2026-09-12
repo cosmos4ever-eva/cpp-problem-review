@@ -2,7 +2,7 @@
 
 - 总题号：030
 - 日期：2026-09-12
-- 类型：动态规划、01背包、二维状态
+- 类型：动态规划、01背包、完全背包变式、二维状态
 - 状态：AI 辅助完成
 - 建议复习：2026-09-13
 - 原题：[Sunnywhy](https://sunnywhy.com/camp/3415/model/3590?itemId=2999)
@@ -87,6 +87,51 @@ dp[i][j] = max(dp[i-1][j],
 
 选择当前物品时从第 `i-1` 行转移，保证第 `i` 件物品不会被重复选择。
 
+## 变式：完全背包
+
+如果题目把限制改为“每种物品可以选择任意次”，就变成完全背包。
+
+不选择第 `i` 种物品时，仍然继承上一行：
+
+```cpp
+dp[i-1][j]
+```
+
+选择第 `i` 种物品后，因为还允许再次选择同一种物品，所以剩余容量的答案来自当前第 `i` 行：
+
+```cpp
+dp[i][j-w[i]] + c[i]
+```
+
+完整转移为：
+
+```cpp
+dp[i][j] = max(dp[i-1][j],
+               dp[i][j-w[i]] + c[i]);
+```
+
+这与 01 背包只有一处核心区别：
+
+```cpp
+// 01 背包：每件物品最多选择一次
+dp[i-1][j-w[i]] + c[i]
+
+// 完全背包：每种物品可以重复选择
+dp[i][j-w[i]] + c[i]
+```
+
+变式代码把容量放在外层并从小到大枚举：
+
+```cpp
+for(int j = 0;j <= v;j++){
+    for(int i = 1;i <= n;i++){
+```
+
+这个二维写法是可行的，因为计算 `dp[i][j]` 时：
+
+- `dp[i-1][j]` 已在当前容量的内层循环中计算；
+- `dp[i][j-w[i]]` 属于更小容量，已在之前的外层循环中计算。
+
 ## 初始状态
 
 第 `0` 行表示一件物品都没有考虑，此时无论容量是多少，最大价值都是 `0`：
@@ -133,10 +178,13 @@ dp[n][v]
 4. 选择第 `i` 件物品时从 `dp[i-1]` 转移，避免重复选择。
 5. 数组从 `0` 还是从 `1` 开始必须前后一致。
 6. `max` 对应的标准头文件是 `<algorithm>`。
+7. 完全背包允许重复选择，选择分支要留在当前行：`dp[i][j-w[i]] + c[i]`。
 
 ## 对原始代码的整理
 
 [original.cpp](original.cpp) 完整保留你的代码。[solution.cpp](solution.cpp) 只补充了 `max` 所需的 `<algorithm>`，没有改变数组下标、状态定义、循环或转移关系。
+
+完全背包变式同样分别保存在 [complete-original.cpp](complete-original.cpp) 和 [complete-solution.cpp](complete-solution.cpp) 中；整理版只补充 `<algorithm>`。
 
 ## 复习问题
 
@@ -144,9 +192,13 @@ dp[n][v]
 2. 为什么每件物品都要计算容量 `0...v` 的全部状态？
 3. 选择当前物品时，为什么从 `dp[i-1][j-w[i]]` 转移？
 4. 如果从 `dp[i][j-w[i]]` 转移，会发生什么变化？
+5. 为什么完全背包可以留在当前行，而 01 背包必须回到上一行？
 
 ## 文件
 
 - [solution.cpp](solution.cpp)：补充必要头文件后的代码
 - [original.cpp](original.cpp)：你的提交代码
 - [sample.in](sample.in) / [sample.out](sample.out)：测试样例
+- [complete-solution.cpp](complete-solution.cpp)：完全背包变式整理版
+- [complete-original.cpp](complete-original.cpp)：完全背包变式原始代码
+- [complete-sample.in](complete-sample.in) / [complete-sample.out](complete-sample.out)：体现重复选择的变式样例
