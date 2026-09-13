@@ -14,7 +14,7 @@
 | 04 | [前缀和](topics/04-prefix-sum/README.md) | 3 | 前缀预处理、区间查询与前后缀最值 |
 | 05 | [数论](topics/05-number-theory/README.md) | 4 | 素数、筛法、质因数分解、约数、末尾零与最大公约数 |
 | 06 | [二分查找](topics/06-binary-search/README.md) | 5 | 旋转数组、边界查找、最近位置与 `lower_bound` |
-| 07 | [深度优先搜索](topics/07-depth-first-search/README.md) | 6 | 递归、搜索树、回溯、组合、排列与累计状态枚举 |
+| 07 | [深度优先搜索](topics/07-depth-first-search/README.md) | 7 | 递归、搜索树、回溯、组合、排列、累计状态与位覆盖枚举 |
 | 08 | [动态规划](topics/08-dynamic-programming/README.md) | 10 | 状态定义、递推顺序、记忆化搜索、区间状态、背包、方案记录与哈希优化 |
 
 ## 状态说明
