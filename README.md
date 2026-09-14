@@ -11,7 +11,7 @@
 | 01 | [排序](topics/01-sorting/README.md) | 2 | 稳定排序、归并排序与逆序对 |
 | 02 | [字符串](topics/02-string/README.md) | 1 | 字符串扫描、变换与计数 |
 | 03 | [双指针](topics/03-two-pointers/README.md) | 3 | 滑动窗口、有序序列同步扫描 |
-| 04 | [前缀和](topics/04-prefix-sum/README.md) | 4 | 前缀预处理、区间查询、前后缀最值与同余统计 |
+| 04 | [前缀和](topics/04-prefix-sum/README.md) | 5 | 前缀预处理、周期区间、前后缀最值与同余统计 |
 | 05 | [数论](topics/05-number-theory/README.md) | 4 | 素数、筛法、质因数分解、约数、末尾零与最大公约数 |
 | 06 | [二分查找](topics/06-binary-search/README.md) | 5 | 旋转数组、边界查找、最近位置与 `lower_bound` |
 | 07 | [深度优先搜索](topics/07-depth-first-search/README.md) | 8 | 递归、搜索树、回溯、组合、排列、累计状态、位覆盖与括号匹配 |

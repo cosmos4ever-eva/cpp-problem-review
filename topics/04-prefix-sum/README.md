@@ -8,3 +8,4 @@
 | 02 | [奶牛过马路](02-cow-crossing/problem.md) | 排序、前缀最大值、后缀最小值、结构体 |
 | 03 | [赛博改装](03-cyberware-prime-range-sum/problem.md) | 质数前缀和、区间查询、边界处理 |
 | 04 | [连续子序列和的倍数](04-subarray-sum-multiple/problem.md) | 前缀余数、同余、哈希表、组合计数 |
+| 05 | [重复求和](05-repeated-sum/problem.md) | 周期前缀和、完整块与残余块、0 下标换算 |
