@@ -11,3 +11,4 @@
 | 05 | [有限制的选数II](05-limited-number-selection-ii/problem.md) | 可重复选择、目标和剪枝、二叉决策树 |
 | 06 | [元求和](06-meta-sum/problem.md) | 正负二选一、累计和回溯、`set` 去重排序、结果类型选择 |
 | 07 | [最小覆盖](07-minimum-cover/problem.md) | 子集枚举、按位或覆盖、最少选择、局部快照恢复 |
+| 08 | [双合法括号](08-double-valid-brackets/problem.md) | 多类型括号、栈顶匹配、嵌套顺序、字典序回溯 |
