@@ -10,3 +10,4 @@
 | 04 | [安全距离](04-safety-distance/problem.md) | 相邻候选、最近距离、边界处理 |
 | 05 | [平衡素数](05-balanced-prime/problem.md) | `lower_bound`、`nextBalancedPrime`、预处理边界 |
 | 06 | [大小数](06-pair-sum-range/problem.md) | `lower_bound`、`upper_bound`、开闭区间计数 |
+| 07 | [K个切割点](07-k-cut-points/problem.md) | 二分答案、贪心选点、末段检查、状态初始化 |
