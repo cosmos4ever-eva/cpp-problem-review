@@ -9,3 +9,4 @@
 | 03 | [期末划重点](03-final-exam-key-pages/problem.md) | 最后一个不大于目标值的位置 |
 | 04 | [安全距离](04-safety-distance/problem.md) | 相邻候选、最近距离、边界处理 |
 | 05 | [平衡素数](05-balanced-prime/problem.md) | `lower_bound`、`nextBalancedPrime`、预处理边界 |
+| 06 | [大小数](06-pair-sum-range/problem.md) | `lower_bound`、`upper_bound`、开闭区间计数 |

@@ -38,6 +38,7 @@
 - `lower_bound(first, last, target)` 用二分查找返回有序区间中第一个不小于 `target` 的元素位置，即第一个满足 `value >= target` 的迭代器；需要包含 `<algorithm>`。
 - 返回值是迭代器，不是元素值。使用 `*it` 取得该位置的元素，使用 `it - container.begin()` 才能取得下标。
 - 如果区间中不存在不小于目标值的元素，返回值等于 `container.end()`。`end()` 指向最后一个元素之后的位置，不能解引用，因此使用 `*it` 前必须先判断 `it != container.end()`。
+- 统计有序数组中的开闭区间时，可以统一用“右迭代器减左迭代器”：`[L,R]` 对应 `lower_bound(L)` 到 `upper_bound(R)`，`(L,R]` 对应 `upper_bound(L)` 到 `upper_bound(R)`，`[L,R)` 对应 `lower_bound(L)` 到 `lower_bound(R)`，`(L,R)` 对应 `upper_bound(L)` 到 `lower_bound(R)`。左端是否包含决定使用 `lower_bound` 还是 `upper_bound`，右端是否包含则决定结束位置是否要越过等于 `R` 的元素。
 - 当题目要求返回“不小于查询值的最小预处理结果”时，预处理范围可能需要超过查询值的最大范围。例如查询最大为 `10^7`，下一个平衡素数可能大于 `10^7`；判断它是否平衡还需要继续得到它后面的相邻质数。
 
 ### 旋转有序数组
