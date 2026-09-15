@@ -12,7 +12,7 @@
 | 02 | [字符串](topics/02-string/README.md) | 2 | 字符串扫描、循环移位、字典序与计数 |
 | 03 | [双指针](topics/03-two-pointers/README.md) | 3 | 滑动窗口、有序序列同步扫描 |
 | 04 | [前缀和](topics/04-prefix-sum/README.md) | 5 | 前缀预处理、周期区间、前后缀最值与同余统计 |
-| 05 | [数论](topics/05-number-theory/README.md) | 4 | 素数、筛法、质因数分解、约数、末尾零与最大公约数 |
+| 05 | [数论](topics/05-number-theory/README.md) | 5 | 素数、筛法、质因数分解、约数个数、约数和、末尾零与最大公约数 |
 | 06 | [二分查找](topics/06-binary-search/README.md) | 7 | 旋转数组、边界查找、区间计数与二分答案 |
 | 07 | [深度优先搜索](topics/07-depth-first-search/README.md) | 8 | 递归、搜索树、回溯、组合、排列、累计状态、位覆盖与括号匹配 |
 | 08 | [动态规划](topics/08-dynamic-programming/README.md) | 10 | 状态定义、递推顺序、记忆化搜索、区间状态、背包、方案记录与哈希优化 |
