@@ -5,3 +5,4 @@
 | 类内题号 | 题目 | 核心知识点 |
 | --- | --- | --- |
 | 01 | [读论文](01-reading-paper/problem.md) | 连续字符压缩、哈希计数 |
+| 02 | [循环二大](02-second-largest-cyclic-string/problem.md) | 循环移位、字符串字典序、最大与第二大维护 |
